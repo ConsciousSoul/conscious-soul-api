@@ -1,3 +1,7 @@
 FactoryBot.define do
-  <factories for each model go here>
+  factory :menu_item, class: 'MenuItem' do
+    name { 'Pizza' }
+    price { 11.50 }
+    description { 'A delicious pizza' }
+  end
 end
