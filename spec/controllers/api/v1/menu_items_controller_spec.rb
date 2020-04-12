@@ -16,4 +16,5 @@ describe Api::V1::MenuItemsController, :type => :request do
       expect(body.first.name).to eq("Pizza")
     end
   end 
+
 end
