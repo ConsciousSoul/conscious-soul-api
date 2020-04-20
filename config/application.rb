@@ -39,7 +39,6 @@ module ConsciousSoulApi
         origins '*'
         resource '*',
           headers: :any,
-          expose: %w(access-token expiry token-type uid client),
           methods: %i(get post options put delete)
       end
     end
