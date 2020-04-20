@@ -34,13 +34,13 @@ module ConsciousSoulApi
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
 
-    config.middleware.use Rack::Cors do
-      allow do
-        origins '*'
-        resource '*',
-          headers: :any,
-          methods: %i(get post options put delete)
-      end
-    end
+#    config.middleware.use Rack::Cors do
+#     allow do
+#        origins '*'
+#        resource '*',
+#          headers: :any,
+#          methods: %i(get post options put delete)
+#      end
+#    end
   end
 end
